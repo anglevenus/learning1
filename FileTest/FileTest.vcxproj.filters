@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="xxhash">
+      <UniqueIdentifier>{346075b5-cb11-47db-b853-62fe6fded8a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lz4">
+      <UniqueIdentifier>{8a5b639f-ed75-4964-950b-833bff152f36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PreGenerate">
+      <UniqueIdentifier>{eaad6142-66ef-401c-abd4-918cd7294638}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tinyxml">
+      <UniqueIdentifier>{fd0c4077-e4b4-4aa8-971a-e103ebe0d6f7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FileTest.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="md5.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="xxhash\xxhash.h">
+      <Filter>xxhash</Filter>
+    </ClInclude>
+    <ClInclude Include="lz4io.h">
+      <Filter>lz4</Filter>
+    </ClInclude>
+    <ClInclude Include="platform.h">
+      <Filter>lz4</Filter>
+    </ClInclude>
+    <ClInclude Include="util.h">
+      <Filter>lz4</Filter>
+    </ClInclude>
+    <ClInclude Include="PreGenerate.h">
+      <Filter>PreGenerate</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyxml2.h">
+      <Filter>tinyxml</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="FileTest.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="md5.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="xxhash\xxhash.c">
+      <Filter>xxhash</Filter>
+    </ClCompile>
+    <ClCompile Include="lz4io.c">
+      <Filter>lz4</Filter>
+    </ClCompile>
+    <ClCompile Include="PreGenerate.cpp">
+      <Filter>PreGenerate</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml2.cpp">
+      <Filter>tinyxml</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="xxhash\xxhsum.c">
+      <Filter>xxhash</Filter>
+    </None>
+  </ItemGroup>
+</Project>
